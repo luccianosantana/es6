@@ -1,5 +1,5 @@
 class Message {
-  constructor(text = '', created = Date.now() ){
+  constructor(text = 'Valor padrao', created = Date.now() ){
     this.text = text;
     this._created = created;
   }
